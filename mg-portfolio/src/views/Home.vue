@@ -2,6 +2,8 @@
   <div class="home">
     <Mg />
     <Work />
+    <WorkingSteps />
+    <LetsMakeItHappen />
   </div>
 </template>
 
@@ -9,12 +11,16 @@
 // @ is an alias to /src
 import Mg from "@/components/Mg.vue";
 import Work from "@/components/Work.vue";
+import WorkingSteps from "@/components/WorkingSteps.vue";
+import LetsMakeItHappen from "@/components/LetsMakeItHappen.vue";
 
 export default {
   name: "home",
   components: {
     Mg,
-    Work
+    Work,
+    WorkingSteps,
+    LetsMakeItHappen
   }
 };
 </script>

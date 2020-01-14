@@ -1,20 +1,28 @@
 <template>
   <div class="work-container">
-    <div class="work-container-text">
-      <h1 class="title-150">Work</h1>
-    </div>
-    <div class="work-cards-container">
-      <div class="work-card-section">
-        <div class="work-card-1"></div>
-        <div class="work-card-2"></div>
+    <div class="work-container-position">
+      <div class="work-container-text">
+        <h1 class="title-150">Work</h1>
       </div>
-      <div class="work-card-section">
-        <div class="work-card-1"></div>
-        <div class="work-card-2"></div>
-      </div>
-      <div class="work-card-section">
-        <div class="work-card-1"></div>
-        <div class="work-card-2"></div>
+      <div class="work-cards-container">
+        <div class="work-card-section">
+          <div class="work-card-1">
+            <h2 class="work-card-title">UNIFESP</h2>
+          </div>
+          <div class="work-card-2">
+            <h2 class="work-card-title">Agrotools</h2>
+          </div>
+        </div>
+        <div class="work-card-section">
+          <div class="work-card-3"></div>
+          <div class="work-card-4">
+            <h2 class="work-card-title">Bitnotícias</h2>
+          </div>
+        </div>
+        <div class="work-card-section">
+          <div class="work-card-2"></div>
+          <div class="work-card-1"></div>
+        </div>
       </div>
     </div>
   </div>
