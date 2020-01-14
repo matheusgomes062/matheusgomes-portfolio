@@ -1,0 +1,52 @@
+.mg-container {
+  min-height: 940px;
+  height: 100%;
+}
+
+// .mg-bg {
+//   background-image: url("../../assets/bg-1.svg");
+//   background-repeat: no-repeat;
+// }
+
+.mg-container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 250px;
+  left: 140px;
+}
+
+.mg-text {
+  font-size: 200px;
+  font-weight: 700;
+  margin: 0;
+  max-width: 1625px;
+  width: 100%;
+}
+
+.profile-img {
+  position: absolute;
+  top: 345px;
+  right: 140px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #a9aeb3;
+}
+
+.bottom-description-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-description {
+  display: flex;
+  justify-content: center;
+  max-width: 1640px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-weight: 500;
+  font-size: 24px;
+}

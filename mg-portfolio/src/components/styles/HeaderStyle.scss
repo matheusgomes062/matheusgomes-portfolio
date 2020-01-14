@@ -1,15 +1,31 @@
 .header-text {
   font-weight: 500;
+  font-size: 24px;
+}
+
+.header-text-rl {
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  max-width: 1625px;
+  width: 100%;
 }
 
 a * {
   text-decoration: none;
   display: inline-block;
+  color: inherit;
 }

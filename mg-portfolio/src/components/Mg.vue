@@ -1,7 +1,13 @@
-<template>
-  <div>
-    <h1>Matheus</h1>
-    <h1>Gomes</h1>
+<template >
+  <div class="mg-bg mg-container">
+    <div class="mg-container-text">
+      <h1 class="mg-text">Matheus</h1>
+      <h1 class="mg-text">Gomes</h1>
+    </div>
+    <div class="profile-img"></div>
+    <div class="bottom-description-container">
+      <p class="bottom-description">Web Developer | AI Enthusiast | Student</p>
+    </div>
   </div>
 </template>
 
@@ -11,5 +17,6 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" >
+@import "./styles/MgStyle.scss";
 </style>
