@@ -5,7 +5,7 @@
         <h1 class="title-150">Working steps</h1>
       </div>
       <div class="working-steps-container-position">
-        <img src="../assets/bg-3.svg" alt />
+        <img src="../assets/bg-3.svg" alt="working-steps-background" class="ws-bg" />
         <div class="working-steps-container-container-steps">
           <div v-for="(step, index) in steps" :key="index" class="working-steps-container-steps">
             <div class="working-steps-container-step">
@@ -36,7 +36,7 @@ export default {
         {
           title: "Briefing",
           text:
-            "What the site want to achieve? \nWhat is the users needs? \n And most important, \nwhat is your goal?"
+            "What the site wants to achieve? \nWhat is the users needs? \n And most important, \nwhat is your goal?"
         },
         {
           title: "Information Architeture",

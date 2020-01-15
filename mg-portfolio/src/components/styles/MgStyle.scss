@@ -3,10 +3,12 @@
   height: 100%;
 }
 
-// .mg-bg {
-//   background-image: url("../../assets/bg-1.svg");
-//   background-repeat: no-repeat;
-// }
+.mg-bg {
+  top: 120px;
+  position: absolute;
+  width: 1900px;
+  // left: -90px;
+}
 
 .mg-container-text {
   display: flex;
@@ -14,7 +16,7 @@
   align-items: center;
   position: absolute;
   top: 250px;
-  left: 140px;
+  left: 495px;
 }
 
 .mg-text {
@@ -22,7 +24,7 @@
   font-weight: 700;
   margin: 0;
   max-width: 1625px;
-  width: 100%;
+  // width: 100%;
 }
 
 .profile-img {

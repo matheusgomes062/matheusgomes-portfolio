@@ -1,6 +1,14 @@
 .lmih-container {
-  min-height: 940px;
+  width: 1900px;
+  max-height: 930px;
   height: 100%;
+}
+
+.lmih-bg {
+  // position: absolute;
+  // left: -130px;
+  width: 1900px;
+  height: 930px;
 }
 
 .lmih-container-position {
@@ -16,7 +24,7 @@
 }
 
 .lmih-title {
-  font-size: 150px;
+  font-size: 148px;
 }
 
 .lmih-email {
