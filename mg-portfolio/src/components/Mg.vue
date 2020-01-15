@@ -1,5 +1,6 @@
 <template >
   <div class="mg-bg mg-container">
+    <img src="../assets/bg-1.svg" alt />
     <div class="mg-container-text">
       <h1 class="mg-text">Matheus</h1>
       <h1 class="mg-text">Gomes</h1>
