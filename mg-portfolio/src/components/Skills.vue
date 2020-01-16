@@ -1,7 +1,7 @@
 <template>
   <div class="skills-container">
     <div class="skills-container-position">
-      <img src="../assets/bg-5.svg" alt="skills-background" />
+      <img src="../assets/bg/bg-5.svg" alt="skills-background" />
       <div class="skill-container-text">
         <div class="skill-container-title-text">
           <h1 class="skills-title">Skills</h1>
@@ -17,8 +17,7 @@
       <div class="skill-container-skills">
         <div class="skill-container-single-skill" v-for="(skill,index) in skills" :key="index">
           <div class="skill-container-circle">
-            <img :src="`${skill.icon}`" alt="skill-icon" class="skill-icon" />
-            {{skill.icon}}
+            <img :src="getIconUrl(skill.icon)" alt="skill-icon" class="skill-icon" />
           </div>
           <div class="skill-name-container">
             <p class="skill-name">{{skill.name}}</p>
@@ -37,61 +36,61 @@ export default {
       skills: [
         {
           name: "Vue.js",
-          icon: "../assets/vuejs-brands.svg",
+          icon: "vuejs-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "Javascript",
-          icon: "../assets/vuejs-brands.svg",
+          icon: "js-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "HTML",
-          icon: "../assets/vuejs-brands.svg",
+          icon: "html5-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "CSS",
-          icon: "../assets/vuejs-brands.svg",
+          icon: "css3-alt-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "SQL",
-          icon: "../assets/vuejs-brands.svg",
+          icon: "sql-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "C#",
-          icon: "../assets/vuejs-brands.svg",
+          icon: "csharp-alt-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "Git",
-          icon: "../assets/vuejs-brands.svg",
-          description: "First language that i learned."
-        },
-        {
-          name: "C#",
-          icon: "../assets/vuejs-brands.svg",
+          icon: "git-alt-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "JAVA",
-          icon: "../assets/vuejs-brands.svg",
+          icon: "java-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "C",
-          icon: "../assets/vuejs-brands.svg",
+          icon: "c-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "Python",
-          icon: "../assets/vuejs-brands.svg",
+          icon: "python-brands.svg",
           description: "First language that i learned."
         }
       ]
     };
+  },
+  methods: {
+    getIconUrl(iconName) {
+      return require("../assets/skills/" + iconName);
+    }
   }
 };
 </script>

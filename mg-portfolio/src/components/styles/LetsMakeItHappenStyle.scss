@@ -31,12 +31,13 @@
   font-size: 80px;
 }
 
-.send-email {
+.send-email-container {
   position: absolute;
   top: 380px;
   right: 0px;
+}
+
+.send-email-icon {
   height: 100px;
   width: 100px;
-  border-radius: 50%;
-  background-color: #a9aeb3;
 }

@@ -5,12 +5,17 @@
         <h1 class="title-150">Working steps</h1>
       </div>
       <div class="working-steps-container-position">
-        <img src="../assets/bg-3.svg" alt="working-steps-background" class="ws-bg" />
+        <img src="../assets/bg/bg-3.svg" alt="working-steps-background" class="ws-bg" />
         <div class="working-steps-container-container-steps">
           <div v-for="(step, index) in steps" :key="index" class="working-steps-container-steps">
             <div class="working-steps-container-step">
               <div class="working-steps-container-title">
                 <div class="working-steps-container-bgimg">
+                  <img
+                    src="../assets/check-circle-solid.svg"
+                    alt="briefing-background"
+                    class="working-steps-icon"
+                  />
                   <h2 class="working-steps-step-title">{{step.title}}</h2>
                 </div>
               </div>

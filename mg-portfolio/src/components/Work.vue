@@ -1,7 +1,7 @@
 <template>
   <div class="work-container">
     <div class="work-container-position">
-      <img src="../assets/bg-2.svg" alt="work-background" class="work-bg" />
+      <img src="../assets/bg/bg-2.svg" alt="work-background" class="work-bg" />
       <div class="work-container-title-text">
         <h1 class="title-150">Work</h1>
       </div>
