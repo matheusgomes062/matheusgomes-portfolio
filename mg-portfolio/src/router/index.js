@@ -1,20 +1,20 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Whois from "../views/Whois.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Home",
+    name: "home",
     component: Home
   },
   {
     path: "/whois",
     name: "whois",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
+    component: Whois
   }
   // {
   //   path: "/contact",

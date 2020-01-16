@@ -1,0 +1,71 @@
+.wimg-container-position {
+  position: relative;
+}
+
+.wimg-title-text-container-position {
+  min-height: 940px;
+  height: 100%;
+}
+
+.wimg-title-text-container {
+  position: absolute;
+  top: 250px;
+  left: 140px;
+}
+
+.wimg-title {
+  font-weight: 700;
+  font-size: 150px;
+}
+
+.wimg-description-container {
+  width: 950px;
+}
+.wimg-description {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.wimg-education-container {
+  min-height: 940px;
+  height: 100%;
+}
+
+.wimg-education-title-text-container-position {
+  position: relative;
+}
+
+.wimg-education-title-text-container {
+  position: absolute;
+  top: 150px;
+  left: 140px;
+}
+
+.wimg-education-title {
+  font-weight: 700;
+  font-size: 150px;
+}
+
+.wimg-education-description-container {
+  font-size: 18px;
+  font-weight: 500;
+  width: 650px;
+}
+
+.wimg-education-university-cards-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.wimg-education-university-card {
+  position: absolute;
+  top: 250px;
+  right: 140px;
+  width: 650px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a9aeb3;
+}

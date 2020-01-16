@@ -1,13 +1,13 @@
 <template>
   <header>
     <nav>
-      <router-link to="/" class="header-text-rl">
+      <router-link to="/whois" class="router-link">
         <h1 class="header-text">Who is MG?</h1>
       </router-link>
-      <router-link to="/" class="header-text-rl">
+      <router-link to="/" class="router-link">
         <h1 class="header-text">Projects</h1>
       </router-link>
-      <router-link to="/" class="header-text-rl">
+      <router-link to="/" class="router-link">
         <h1 class="header-text">Contact</h1>
       </router-link>
     </nav>

@@ -1,12 +1,10 @@
 <template>
   <div class="home">
-    <div class="mg-vertical mg-top">mgodev</div>
     <Mg />
     <Work />
     <Skills />
     <WorkingSteps />
     <LetsMakeItHappen />
-    <div class="mg-vertical mg-bottom">mgodev</div>
   </div>
 </template>
 
@@ -31,21 +29,4 @@ export default {
 </script>
 
 <style>
-.mg-vertical {
-  position: fixed;
-  z-index: 10;
-  font-weight: 500;
-  font-size: 18px;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  left: 10px;
-}
-
-.mg-top {
-  top: 50px;
-}
-
-.mg-bottom {
-  bottom: 50px;
-}
 </style>
