@@ -16,7 +16,10 @@
       </div>
       <div class="skill-container-skills">
         <div class="skill-container-single-skill" v-for="(skill,index) in skills" :key="index">
-          <div class="skill-container-circle"></div>
+          <div class="skill-container-circle">
+            <img :src="`${skill.icon}`" alt="skill-icon" class="skill-icon" />
+            {{skill.icon}}
+          </div>
           <div class="skill-name-container">
             <p class="skill-name">{{skill.name}}</p>
           </div>
@@ -34,46 +37,57 @@ export default {
       skills: [
         {
           name: "Vue.js",
+          icon: "../assets/vuejs-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "Javascript",
+          icon: "../assets/vuejs-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "HTML",
+          icon: "../assets/vuejs-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "CSS",
+          icon: "../assets/vuejs-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "SQL",
+          icon: "../assets/vuejs-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "C#",
-          description: "First language that i learned."
-        },
-        {
-          name: "JAVA",
+          icon: "../assets/vuejs-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "Git",
+          icon: "../assets/vuejs-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "C#",
+          icon: "../assets/vuejs-brands.svg",
+          description: "First language that i learned."
+        },
+        {
+          name: "JAVA",
+          icon: "../assets/vuejs-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "C",
+          icon: "../assets/vuejs-brands.svg",
           description: "First language that i learned."
         },
         {
           name: "Python",
+          icon: "../assets/vuejs-brands.svg",
           description: "First language that i learned."
         }
       ]
