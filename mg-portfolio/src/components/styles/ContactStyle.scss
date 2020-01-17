@@ -1,0 +1,37 @@
+.contact-container {
+  min-height: 750px;
+  height: 100%;
+}
+
+.contact-container-position {
+  position: relative;
+}
+
+.contact-title-text-container-position {
+  // min-height: 940px;
+  // height: 100%;
+}
+
+.contact-title-text-container {
+  position: absolute;
+  top: 250px;
+  left: 140px;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 150px;
+}
+
+.contact-description-container {
+  width: 950px;
+}
+
+.contact-description {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+// .contact-cards-container {
+//   background-color: #d9e0e6;
+// }

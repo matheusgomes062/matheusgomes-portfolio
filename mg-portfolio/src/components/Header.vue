@@ -7,7 +7,7 @@
       <router-link to="/projects" class="router-link">
         <h1 class="header-text">Projects</h1>
       </router-link>
-      <router-link to="/" class="router-link">
+      <router-link to="/contact" class="router-link">
         <h1 class="header-text">Contact</h1>
       </router-link>
     </nav>

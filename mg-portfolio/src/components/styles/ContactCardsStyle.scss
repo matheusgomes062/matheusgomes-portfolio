@@ -1,0 +1,31 @@
+.contact-cards-container {
+  min-height: 540px;
+  height: 100%;
+}
+
+.contact-cards-container-position {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-cards-position-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 1640px;
+  justify-content: space-between;
+}
+
+.contact-card-container {
+  width: 400px;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  background-color: #a6a6a6;
+}
+
+.contact-name {
+  font-size: 24px;
+  font-weight: 500;
+}
