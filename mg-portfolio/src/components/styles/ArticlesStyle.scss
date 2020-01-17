@@ -1,0 +1,45 @@
+.wimg-articles-container {
+  min-height: 940px;
+  height: 100%;
+}
+
+.wimg-articles-title-text-container-position {
+  position: relative;
+}
+
+.wimg-articles-title-text-container {
+  position: absolute;
+  top: 150px;
+  right: 140px;
+}
+
+.wimg-articles-title {
+  font-weight: 700;
+  font-size: 150px;
+  text-align: right;
+}
+
+.wimg-articles-description-container {
+  font-size: 18px;
+  font-weight: 500;
+  width: 650px;
+  text-align: right;
+}
+
+.wimg-articles-cards-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.wimg-articles-card {
+  position: absolute;
+  top: 250px;
+  left: 140px;
+  width: 800px;
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a9aeb3;
+}
