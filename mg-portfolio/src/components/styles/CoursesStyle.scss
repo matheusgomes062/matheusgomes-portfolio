@@ -7,15 +7,18 @@
   position: relative;
 }
 
+.courses-container-title-text {
+  position: absolute;
+  top: 320px;
+  left: 140px;
+}
+
 .courses-title {
   font-size: 150px;
   font-weight: 700;
   margin: 0;
-  max-width: 1625px;
-  width: 100%;
-  position: absolute;
-  top: 320px;
-  right: 140px;
+  // max-width: 1625px;
+  // width: 100%;
   z-index: 1;
 }
 
@@ -25,7 +28,7 @@
   left: 140px;
   margin: 0;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 18px;
   width: 750px;
 }
 
@@ -46,7 +49,7 @@
   flex-wrap: wrap;
 
   position: absolute;
-  top: 350px;
+  top: 300px;
   right: 140px;
   justify-content: space-between;
 }
@@ -58,6 +61,14 @@
 }
 
 .course-icon {
-  width: 80px;
-  height: 80px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.ms-3 {
+  position: absolute;
+  z-index: -1;
+  // left: 85px;
+  top: -130px;
 }

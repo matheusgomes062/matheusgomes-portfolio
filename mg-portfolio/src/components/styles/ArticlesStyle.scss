@@ -1,5 +1,5 @@
 .wimg-articles-container {
-  min-height: 940px;
+  min-height: 700px;
   height: 100%;
 }
 
@@ -42,4 +42,9 @@
   align-items: center;
   justify-content: center;
   background-color: #a9aeb3;
+}
+
+.ms-2 {
+  position: absolute;
+  z-index: -1;
 }

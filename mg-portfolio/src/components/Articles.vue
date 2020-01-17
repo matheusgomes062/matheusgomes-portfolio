@@ -3,6 +3,7 @@
   <div class="wimg-articles-container">
     <div class="wimg-articles-title-text-container-position">
       <div class="wimg-articles-title-text-container">
+        <img src="../assets/mini-squares/mini-square-2.png" alt="mini-square-2" class="ms-2" />
         <h1 class="wimg-articles-title">Articles</h1>
         <section class="wimg-articles-description-container">
           <p
@@ -13,7 +14,6 @@
     </div>
     <div class="wimg-articles-cards-container">
       <div class="wimg-articles-card">
-        <!-- <img src="../assets/bg/unifesp-bg.png" alt="unifesp-bg" class="unifesp-bg" /> -->
         <h2>Programming Paradigm</h2>
       </div>
       <div class="wimg-articles-card" style="top:365px">

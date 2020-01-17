@@ -2,6 +2,7 @@
   <div class="wimg-education-container">
     <div class="wimg-education-title-text-container-position">
       <div class="wimg-education-title-text-container">
+        <img src="../assets/mini-squares/mini-square-1.png" alt="mini-square-1" class="ms-1" />
         <h1 class="wimg-education-title">Education</h1>
         <section class="wimg-education-description-container">
           <p
@@ -12,7 +13,6 @@
     </div>
     <div class="wimg-education-university-cards-container">
       <div class="wimg-education-university-card">
-        <!-- <img src="../assets/bg/unifesp-bg.png" alt="unifesp-bg" class="unifesp-bg" /> -->
         <h2>Federal University of São Paulo</h2>
       </div>
       <div class="wimg-education-university-card" style="top:425px">
