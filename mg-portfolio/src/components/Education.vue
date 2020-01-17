@@ -29,5 +29,5 @@ export default {
 </script>
 
 <style lang="scss" >
-@import "./styles/Education.scss";
+@import "./styles/EducationStyle.scss";
 </style>

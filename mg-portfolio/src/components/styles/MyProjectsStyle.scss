@@ -1,0 +1,37 @@
+.mp-container {
+  min-height: 940px;
+  height: 100%;
+}
+
+.mp-container-position {
+  position: relative;
+}
+
+.mp-title-text-container-position {
+  // min-height: 940px;
+  // height: 100%;
+}
+
+.mp-title-text-container {
+  position: absolute;
+  top: 250px;
+  left: 140px;
+}
+
+.mp-title {
+  font-weight: 700;
+  font-size: 150px;
+}
+
+.mp-description-container {
+  width: 950px;
+}
+
+.mp-description {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+// .mp-cards-container {
+//   background-color: #d9e0e6;
+// }

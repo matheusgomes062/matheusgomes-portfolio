@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Whois from "../views/Whois.vue";
+import Projects from "../views/Projects.vue";
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: "/whois",
     name: "whois",
     component: Whois
+  },
+  {
+    path: "/projects",
+    name: "projects",
+    component: Projects
   }
   // {
   //   path: "/contact",

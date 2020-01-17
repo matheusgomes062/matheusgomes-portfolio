@@ -1,0 +1,44 @@
+.mpc-container {
+  min-height: 1200px;
+  height: 100%;
+}
+
+.mpc-container-position {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.mpc-cards-container {
+  max-width: 1640px;
+  width: 100%;
+  // position: aboslute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  // background-color: #a9aeb3;
+}
+
+.mpc-card-container {
+  background-color: #d9e0e6;
+  width: 810px;
+  height: 410px;
+  margin: 5px;
+}
+
+.mpc-name-container {
+  margin: 45px 0 0 45px;
+}
+
+.mpc-name {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.mpc-bg {
+  z-index: -1;
+  position: absolute;
+  top: 800px;
+  width: 1900px;
+}

@@ -5,11 +5,11 @@
         <div class="courses-container-title-text">
           <img src="../assets/mini-squares/mini-square-3.png" alt="mini-square-3" class="ms-3" />
           <h1 class="courses-title">Courses</h1>
-        </div>
-        <div class="courses-text-container-description">
-          <p
-            class="courses-text-description"
-          >All the courses i've done trought the years. Most of then are online.</p>
+          <section class="courses-description-container">
+            <p
+              class="courses-description"
+            >All the courses with certifications i've done trought the years. Most of then are online.</p>
+          </section>
         </div>
       </div>
       <div class="courses-container-courses">
