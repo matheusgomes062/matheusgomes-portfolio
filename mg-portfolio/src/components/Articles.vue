@@ -1,14 +1,18 @@
-
 <template>
   <div class="wimg-articles-container">
     <div class="wimg-articles-title-text-container-position">
       <div class="wimg-articles-title-text-container">
-        <img src="../assets/mini-squares/mini-square-2.png" alt="mini-square-2" class="ms-2" />
+        <img
+          src="../assets/mini-squares/mini-square-2.png"
+          alt="mini-square-2"
+          class="ms-2"
+        />
         <h1 class="wimg-articles-title">Articles</h1>
         <section class="wimg-articles-description-container">
-          <p
-            class="wimg-articles-description"
-          >These are some of the articles i have made in the course of the years. I'm Always trying to share the knowledge i have!</p>
+          <p class="wimg-articles-description">
+            These are some of the articles i have made in the course of the
+            years. I'm Always trying to share the knowledge i have!
+          </p>
         </section>
       </div>
     </div>
@@ -37,6 +41,6 @@ export default {
 };
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 @import "./styles/ArticlesStyle.scss";
 </style>
